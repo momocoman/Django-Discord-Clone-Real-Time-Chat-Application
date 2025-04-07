@@ -1,47 +1,78 @@
-# Django-Discord-Clone-Real-Time-Chat-Application
+<div align="center">
+<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
 
-Description
+# StudyBuddy
+</div>
 
-This project is a Discord-like chat application developed using Python Django. It provides real-time messaging, user authentication, and channel-based communication, making it ideal for teams, communities, or personal use. The application leverages Django's robust framework for backend development and integrates WebSocket technology for seamless real-time communication.
-Features
+### Cloning the repository
 
-    Real-Time Messaging:
+--> Clone the repository using the command below :
+```bash
+git clone https://github.com/divanov11/StudyBud.git
 
-        Instant communication between users using WebSocket technology.
+```
 
-    Channel-Based Communication:
+--> Move into the directory where we have the project files : 
+```bash
+cd StudyBud
 
-        Create and manage multiple channels for organized discussions.
+```
 
-    User Authentication:
+--> Create a virtual environment :
+```bash
+# Let's install virtualenv first
+pip install virtualenv
 
-        Secure login and registration system.
+# Then we create our virtual environment
+virtualenv envname
 
-        User profiles with customizable settings.
+```
 
-    Responsive Design:
+--> Activate the virtual environment :
+```bash
+envname\scripts\activate
 
-        Optimized for desktop and mobile devices.
+```
 
-    Admin Panel:
+--> Install the requirements :
+```bash
+pip install -r requirements.txt
 
-        Manage users, channels, and messages through Django's built-in admin interface.
+```
 
-Requirements
+#
 
-To run this project, you'll need:
+### Running the App
 
-    Python 3.8+
+--> To run the App, we use :
+```bash
+python manage.py runserver
 
-    Django 4.0+
+```
 
-    Channels (pip install channels)
+> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
 
-    Redis (for WebSocket communication)
+#
 
-    Bootstrap (for frontend styling)
+### App Preview :
 
-Installation
+<table width="100%"> 
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Feed Home
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Room Conversation Preview
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+</td>
+</table>
 
-    Clone the repository:
-    bash
+
